@@ -16,7 +16,7 @@ module.exports = function() {
       open: true
     },
     entry: {
-      main: path.resolve(__dirname, "src/assets/js", "main.js"),
+      main: path.resolve(__dirname, "src/assets/js"),
       other: path.resolve(__dirname, "src/assets/scss", "style.scss"),
     },
     output: {
